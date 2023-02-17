@@ -20,10 +20,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+
     <title>Document</title>
   </head>
-  <body>
+  <body onload="">
     <nav class="navbar navbar-expand-md sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Ruwan Rohitha</a>
@@ -47,7 +47,7 @@
               <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Me</a>
@@ -109,19 +109,19 @@
       </div>
     </div>
 
-    <div class="container" id="about">
+    <div class="container pt-5" id="about">
       <div class="row">
         <div class="col-12">
           <div class="card-2">
-            <div class="title">ABOUT ME</div>
-            <div class="description">
+            <div class="title scroll-element js-scroll fade-in">ABOUT ME</div>
+            <div class="description scroll-element js-scroll fade-in-bottom">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a highly skilled software
               developer with over 3 years of experience. I am currently
               following a degree in Bachelor of Information Technology at the
               University of Colombo and NVQ Level 4 qualified in Vocational
               Training Authority.
             </div>
-            <div class="description">
+            <div class="description scroll-element js-scroll fade-in-bottom">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a developer, I am able to
               identify problems and design and implement solutions that are
               efficient, reliable, and user-friendly. I am proficient in a
@@ -130,12 +130,50 @@
               independently or as part of a team, and I enjoy collaborating with
               others to develop and improve software applications.
             </div>
+            <div class="description scroll-element js-scroll fade-in-bottom">
+              If you want to see my certifications you can follow this link.
+            </div>
+            <div class="btn-barx scroll-element js-scroll fade-in-bottom">
+              <div>
+                <button>
+                  <i class="bi bi-link"></i>
+                  My Certifications
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-3">
+        <div class="col-12">
+          <div class="card-4">
+            <div class="title scroll-element js-scroll fade-in-bottom">
+              Technologies and Languages I have used
+            </div>
+            <div class="image-wrap scroll-element js-scroll fade-in-bottom">
+              <img src="./images/android.png" alt="" />
+              <img src="./images/firebase.png" alt="" />
+              <img src="./images/google.png" alt="" />
+              <img src="./images/html.png" alt="" />
+              <img src="./images/css.png" alt="" />
+              <img src="./images/php.png" alt="" />
+              <img src="./images/mysql.png" alt="" />
+              <img src="./images/netbeans.png" alt="" />
+              <img src="./images/laravel.png" alt="" />
+              <img src="./images/java.png" alt="" />
+              <img src="./images/springboot.png" alt="" />
+              <img src="./images/nodejs.png" alt="" />
+              <img src="./images/postman.webp" alt="" />
+              <img src="./images/python.png" alt="" />
+              <img src="./images/c.png" alt="" />
+              <img src="./images/bootstrap.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
         <div class="col-6">
-          <div class="card-3">
+          <div class="card-3 scroll-element js-scroll slide-left">
             <div class="title">SKILLS</div>
             <div class="skill-wrap">
               <div class="level">Mobile Appliation Development</div>
@@ -147,11 +185,18 @@
               <div class="level">Back-end Development</div>
             </div>
             <div class="skill-wrap">
+              <div class="level">Desktop Application Development</div>
+            </div>
+            <div class="skill-wrap">
               <div class="level">Project Management</div>
             </div>
             <div class="skill-wrap">
               <div class="level">UI/UX Design</div>
             </div>
+            <div class="skill-wrap">
+              <div class="level">Office Package</div>
+            </div>
+
             <hr />
             <div class="tags-wrap">
               <div class="tags">Version Control</div>
@@ -164,18 +209,291 @@
             </div>
           </div>
         </div>
+
         <div class="col-6">
-          <div class="card-3">
-            <div class="title">SKILLS</div>
+          <div class="card-3 sec scroll-element js-scroll slide-right">
+            <div class="title">OWN EXPERIENCE</div>
+            <div class="exp-title">
+              1.&nbsp;&nbsp;&nbsp;&nbsp;2 Years of experience in Android
+              Application Development (Java)
+            </div>
             <div class="description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum esse
-              soluta consectetur consequatur facilis voluptatem doloremque
-              repellendus, reiciendis quas. Temporibus tempore accusamus facere
-              quis natus, voluptas perferendis animi esse sequi?
+              Good knowledge of UI/UX development and Firebase functions &
+              SQLite database functions. Social media integration and testing.
+            </div>
+            <div class="image-wrap">
+              <div class="image">
+                <img src="./images/android.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/firebase.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/google.png" alt="" />
+              </div>
+            </div>
+            <hr />
+            <div class="exp-title">
+              2.&nbsp;&nbsp;&nbsp;&nbsp;3 Years of experience in Java Desktop
+              Application Development
+            </div>
+            <div class="description">
+              Data Handling with MySQL database.Error Handling with Server-side,
+              Client-side validations.Serverlet Programming and UI/UX designs.
+            </div>
+            <div class="image-wrap">
+              <div class="image">
+                <img src="./images/java.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/netbeans.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/mysql.png" alt="" />
+              </div>
+            </div>
+            <hr />
+            <div class="exp-title">
+              3.&nbsp;&nbsp;&nbsp;&nbsp;3 Years of experience in Web Development
+            </div>
+            <div class="description">
+              Familiar with HTML 5, CSS, JS, PHP, Bootstrap, Tailwind CSS,
+              jQuery. Good Knowledge of Backend and Frontend Development and
+              REST Apis.
+            </div>
+            <div class="image-wrap">
+              <div class="image">
+                <img src="./images/html.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/css.png" alt="" />
+              </div>
+              <div class="image">
+                <img src="./images/php.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="container pt-5" id="projects">
+      <div class="row">
+        <div class="col-12">
+          <div class="card-2">
+            <div class="title scroll-element js-scroll fade-in">
+              MY PROJECTS
+            </div>
+            <div class="description scroll-element js-scroll fade-in-bottom">
+              Welcome to my portfolio project section! Here you'll find a
+              collection of my latest projects that showcase my skills and
+              expertise as a developer.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-5 gy-5 mb-5">
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll slide-left">
+            <div class="title">Job Portal Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-1.png" alt="" />
+            </div>
+            <div class="description">
+              This job portal system helps to companies and candidates to join
+              and share the job opportunities.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll fade-in-bottom">
+            <div class="title">Coffee Shop Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-2.png" alt="" />
+            </div>
+            <div class="description">
+              Coffee Shop Application can hold the menu and get orders from
+              customers and handle payments with records.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll slide-right">
+            <div class="title">Parking System Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-3.png" alt="" />
+            </div>
+            <div class="description">
+              Park Management system helps to drivers to book a parking slot and
+              be on time.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll slide-left">
+            <div class="title">Examination Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-4.png" alt="" />
+            </div>
+            <div class="description">
+              This website can have online examinations and share the results
+              and mark the answers within the site.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll fade-in-bottom">
+            <div class="title">Coffee Shop Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-2.png" alt="" />
+            </div>
+            <div class="description">
+              Coffee Shop Application can hold the menu and get orders from
+              customers and handle payments with records.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-5 scroll-element js-scroll slide-right">
+            <div class="title">Parking System Web Site</div>
+            <div class="image-wrap">
+              <img src="./images/project-3.png" alt="" />
+            </div>
+            <div class="description">
+              Park Management system helps to drivers to book a parking slot and
+              be on time.
+            </div>
+            <div class="btn-barx">
+              <div>
+                <button>
+                  <i class="bi bi-book-fill"></i>
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-3">
+            <div class="title">Attributions</div>
+            <div class="attributions">
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/android"
+                  title="android icons"
+                  >Roundicons - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/google"
+                  title="google icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/java"
+                  title="java icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/mysql"
+                  title="mysql icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <a
+                href="https://www.flaticon.com/free-icons/html"
+                title="html icons"
+                >Freepik - Flaticon</a
+              >
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/css"
+                  title="css icons"
+                  >Pixel perfect - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/php"
+                  title="php icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/nodejs"
+                  title="nodejs icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/python"
+                  title="python icons"
+                  >Freepik - Flaticon</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.flaticon.com/free-icons/letter-c"
+                  title="letter c icons"
+                  >Hight Quality Icons - Flaticon</a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
