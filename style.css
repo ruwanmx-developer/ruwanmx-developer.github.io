@@ -5,6 +5,10 @@
   --primary-dark: #2f4a00;
   --secondary: #21dc00;
 }
+/* ::selection {
+  color: #000;
+  background: var(--primary);
+} */
 html {
   scroll-behavior: smooth;
 }
@@ -12,7 +16,7 @@ html {
   font-family: "Poppins", sans-serif !important;
 }
 body {
-  background-image: radial-gradient(ellipse at top, #414141, #1b1b1b);
+  background-image: linear-gradient(#414141, #1b1b1b);
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
