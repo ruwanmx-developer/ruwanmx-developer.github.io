@@ -14,6 +14,7 @@ html {
 body {
   background-image: radial-gradient(ellipse at top, #414141, #1b1b1b);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -416,8 +417,12 @@ body {
   transform: rotateZ(-45deg);
   background: linear-gradient(100deg, var(--primary), var(--secondary));
 }
+.card-5 .image-wrap {
+  text-align: center;
+}
 .card-5 .image-wrap img {
-  width: 100%;
+  width: auto;
+  max-height: 260px;
 }
 .card-5 .title {
   color: #ebebeb;
