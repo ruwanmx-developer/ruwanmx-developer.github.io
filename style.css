@@ -18,7 +18,18 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.maintanence {
+  position: absolute;
+  top: 185px;
+  left: -200px;
+  width: 900px;
+  height: 80px;
+  background-color: var(--secondary);
+  z-index: 10000;
+  text-align: center;
+  padding: 20px;
+  transform: rotateZ(-45deg);
+}
 .js-scroll {
   opacity: 0;
   transition: opacity 500ms;
