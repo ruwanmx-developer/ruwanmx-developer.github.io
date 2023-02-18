@@ -22,11 +22,11 @@
     <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <script src="./bootstrap/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="style.css" />
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Ruwan Rohitha</title>
   </head>
   <body onload="">
-    <div class="maintanence">Site is still under development</div>
+    <div class="maintanence d-none">Site is still under development</div>
     <nav class="navbar navbar-expand-md sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Ruwan Rohitha</a>
@@ -311,7 +311,7 @@
             </div>
             <div class="btn-barx">
               <div>
-                <button>
+                <button onclick="setwarning()">
                   <i class="bi bi-book-fill"></i>
                   Read More
                 </button>
@@ -333,7 +333,7 @@
             </div>
             <div class="btn-barx">
               <div>
-                <button>
+                <button onclick="setwarning()">
                   <i class="bi bi-book-fill"></i>
                   Read More
                 </button>
@@ -355,7 +355,7 @@
             </div>
             <div class="btn-barx">
               <div>
-                <button>
+                <button onclick="setwarning()">
                   <i class="bi bi-book-fill"></i>
                   Read More
                 </button>
@@ -377,7 +377,7 @@
             </div>
             <div class="btn-barx">
               <div>
-                <button>
+                <button onclick="setwarning()">
                   <i class="bi bi-book-fill"></i>
                   Read More
                 </button>
@@ -399,7 +399,7 @@
             </div>
             <div class="btn-barx">
               <div>
-                <button>
+                <button onclick="setwarning()">
                   <i class="bi bi-book-fill"></i>
                   Read More
                 </button>
@@ -451,7 +451,10 @@
                 <img src="./images/linkedin.png" alt=""
               /></a>
             </div>
-            <div class="typer scroll-element js-scroll fade-in-bottom">
+            <div
+              id="typer"
+              class="typer scroll-element js-scroll fade-in-bottom"
+            >
               Thank you again for your interest in my portfolio site. I look
               forward to hearing from you!"
             </div>

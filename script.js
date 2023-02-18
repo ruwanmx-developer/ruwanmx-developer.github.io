@@ -37,3 +37,30 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => {
   handleScrollAnimation();
 });
+
+// var i = 0;
+// var txt =
+//   'Thank you again for your interest in my portfolio site. I look forward to hearing from you!"';
+// var speed = 50;
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("typer").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   } else {
+//     document.getElementById("typer").innerHTML = "";
+//     i = 0;
+//   }
+// }
+
+// typeWriter();
+function setwarning() {
+  Swal.fire({
+    position: "center",
+    icon: "warning",
+    title: "This area is still under development",
+    showConfirmButton: false,
+    timer: 1500,
+  });
+}
