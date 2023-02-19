@@ -44,7 +44,7 @@
     font-size: 13px;
     line-height: 13px;
     background-size: cover;
-    background-image: #111111 url("../images/background-m.jpg");
+    background-image: #111111 url("../images/background-m.webp");
     min-height: calc(100vh + 30px);
   }
   .sticky-top {
