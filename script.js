@@ -61,6 +61,5 @@ function setwarning() {
     icon: "warning",
     title: "This area is still under development",
     showConfirmButton: false,
-    timer: 1500,
   });
 }
