@@ -11,12 +11,13 @@
 } */
 html {
   scroll-behavior: smooth;
+  user-select: none;
 }
 * {
   font-family: "Poppins", sans-serif !important;
 }
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url("../images/background.jpg");
   /* background-image: linear-gradient(#414141, #1b1b1b); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +38,12 @@ body {
   padding: 20px;
   transform: rotateZ(-45deg);
 }
-
+.lg-gx-5 {
+  --bs-gutter-x: 3rem;
+}
+.lg-gy-5 {
+  --bs-gutter-y: 3rem;
+}
 .swal2-title {
   font-size: 22px !important;
   font-weight: 500 !important;
@@ -61,7 +67,7 @@ body {
 }
 
 .scrolled.fade-in {
-  animation: fade-in 1s ease-in-out both;
+  animation: fade-in 1.5s ease-in-out both;
 }
 
 .scrolled.fade-in-bottom {
@@ -175,8 +181,13 @@ body {
   line-height: 46px;
   margin-bottom: 20px;
 }
+.card-1 .profile {
+  width: 100%;
+  text-align: center;
+}
 .card-1 .profile img {
   width: 100%;
+  max-width: 300px;
   margin-bottom: -20px;
   bottom: 0;
 }
@@ -192,7 +203,7 @@ body {
   width: 200px;
   text-align: center;
   padding: 10px;
-  margin: 20px;
+  margin: 5px;
   color: var(--primary);
 }
 .card-1 .btn-bar {
@@ -372,13 +383,13 @@ body {
   border-radius: 25px;
   transition: all 0.2s ease-in-out;
 }
-.card-4 .image-wrap img:hover {
+/* .card-4 .image-wrap img:hover {
   width: 60px;
   height: 60px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 30px;
-}
+} */
 .card-4 .description {
   color: #a9a9a9;
   text-align: center;
