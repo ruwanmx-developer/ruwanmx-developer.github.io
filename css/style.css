@@ -44,6 +44,9 @@ body {
 .lg-gy-5 {
   --bs-gutter-y: 3rem;
 }
+.lg-pt-5 {
+  padding-top: 3rem !important;
+}
 .swal2-title {
   font-size: 22px !important;
   font-weight: 500 !important;

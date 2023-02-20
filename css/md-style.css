@@ -71,6 +71,9 @@
   .lg-gy-5 {
     --bs-gutter-y: 1rem;
   }
+  .lg-pt-5 {
+    padding-top: 0 !important;
+  }
   .card-wrap-1 {
     margin-top: 15px;
     min-height: auto;
