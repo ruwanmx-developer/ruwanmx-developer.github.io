@@ -57,9 +57,8 @@ window.addEventListener("scroll", () => {
 // typeWriter();
 
 function openModel(x) {
-  $("#model").modal("show");
   $("#model_image").attr("src", "./images/project-" + x + ".png");
-
+  $("#model").modal("show");
   $("#model").click(function () {
     $("#model").modal("hide");
   });
