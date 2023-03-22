@@ -538,3 +538,17 @@ body {
   background: #141414;
   padding: 20px;
 }
+#model {
+  background-color: #00000083;
+  backdrop-filter: blur(5px);
+}
+.modal-body,
+.modal-content {
+  width: 100%;
+  text-align: center;
+  background-color: transparent !important;
+}
+#model_image {
+  max-width: 100%;
+  max-height: calc(100vh - 120px);
+}

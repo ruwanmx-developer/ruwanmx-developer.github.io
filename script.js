@@ -55,6 +55,16 @@ window.addEventListener("scroll", () => {
 // }
 
 // typeWriter();
+
+function openModel(x) {
+  $("#model").modal("show");
+  $("#model_image").attr("src", "./images/project-" + x + ".png");
+
+  $("#model").click(function () {
+    $("#model").modal("hide");
+  });
+}
+
 function setwarning() {
   Swal.fire({
     position: "center",
