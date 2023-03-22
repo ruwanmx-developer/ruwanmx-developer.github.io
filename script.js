@@ -61,6 +61,7 @@ function openModel(x) {
   $("#model").modal("show");
   $("#model").click(function () {
     $("#model").modal("hide");
+    $("#model_image").attr("src", "");
   });
 }
 
